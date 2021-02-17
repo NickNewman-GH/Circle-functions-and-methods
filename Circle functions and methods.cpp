@@ -91,8 +91,6 @@ bool is_circles_cross(Circle c, Circle c1) {
         return true;
 }
 
-//--TO-DO--- Функция отражения по Y, Отразить все окружности из нижней полуплоскости в верхнюю
-
 void y_reflect(std::vector<Circle> &mass) {
     auto it = mass.begin();
     while (it != mass.end()) {
